@@ -3,3 +3,5 @@ nukualofa_cyclone_buildings.qgs
 nukualofa_cyclone_scenario.qgs
 nukualofa_tsunami_buildings.qgs
 nukualofa_tsunami_population.qgs
+tonga_exposure_layers.qgs
+
