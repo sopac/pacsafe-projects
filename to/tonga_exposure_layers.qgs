@@ -236,7 +236,7 @@
         <ymax>-21.06820922433860943</ymax>
       </extent>
       <id>building_points20170427112628070</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/building-points.shp</datasource>
+      <datasource>./exposure/building-points.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -400,7 +400,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="BUILDING" index="0" name=""/>
         <alias field="TYPE" index="1" name=""/>
@@ -429,10 +429,10 @@
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="96">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -450,7 +450,7 @@
         <ymax>-21.06815062955288553</ymax>
       </extent>
       <id>buildings20170427112628068</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/buildings.shp</datasource>
+      <datasource>./exposure/buildings.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -859,7 +859,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.06279065982366561</ymax>
       </extent>
       <id>roads20170427112628061</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/roads.shp</datasource>
+      <datasource>./exposure/roads.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1644,7 +1644,7 @@ def my_form_open(dialog, layer, feature):
       <editform>/gisdata/InaSAFEPackages/Jakarta</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1662,7 +1662,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56076300021231873</ymax>
       </extent>
       <id>to_bldexp_aggregates20170427112628059</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_bldexp_aggregates.shp</datasource>
+      <datasource>./exposure/to_bldexp_aggregates.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1839,7 +1839,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -1873,10 +1873,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1894,7 +1894,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.57243199999999916</ymax>
       </extent>
       <id>to_bldexp_modelled20170427112628056</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_bldexp_modelled.shp</datasource>
+      <datasource>./exposure/to_bldexp_modelled.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2030,7 +2030,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Type" index="0" name=""/>
         <alias field="Latitude" index="1" name=""/>
@@ -2052,10 +2052,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-555285760">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2067,7 +2067,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>to_bridges20170427112628053</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_bridges.shp</datasource>
+      <datasource>./exposure/to_bridges.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2239,7 +2239,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="BRDG_ID" index="0" name=""/>
         <alias field="IMAGE_P1" index="1" name=""/>
@@ -2270,10 +2270,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2291,7 +2291,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-18.58090080499994201</ymax>
       </extent>
       <id>to_building_footprints20170427112628050</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_building_footprints.shp</datasource>
+      <datasource>./exposure/to_building_footprints.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2392,7 +2392,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="ID" index="0" name=""/>
         <alias field="AREA" index="1" name=""/>
@@ -2407,10 +2407,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-2147179776">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2428,7 +2428,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-18.58092542099996081</ymax>
       </extent>
       <id>to_buildings20170427112628045</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_buildings.shp</datasource>
+      <datasource>./exposure/to_buildings.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2796,7 +2796,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="ID" index="1" name=""/>
@@ -2876,10 +2876,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2897,7 +2897,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.04889891999999918</ymax>
       </extent>
       <id>to_buildings_verified20170427112628042</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_buildings_verified.shp</datasource>
+      <datasource>./exposure/to_buildings_verified.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3025,7 +3025,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="County" index="0" name=""/>
         <alias field="Latitude" index="1" name=""/>
@@ -3045,10 +3045,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3066,7 +3066,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.0207696759999294</ymax>
       </extent>
       <id>to_coastline20170427112628039</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_coastline.shp</datasource>
+      <datasource>./exposure/to_coastline.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3171,7 +3171,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="ID" index="0" name=""/>
         <alias field="NAME" index="1" name=""/>
@@ -3186,10 +3186,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6357091">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3207,7 +3207,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-20.98885985264448095</ymax>
       </extent>
       <id>to_imagery20170427112646684</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/imagery/to_imagery.tif</datasource>
+      <datasource>./imagery/to_imagery.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3254,7 +3254,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56405189065872818</ymax>
       </extent>
       <id>to_landcover20170427112628035</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_landcover.shp</datasource>
+      <datasource>./exposure/to_landcover.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3347,7 +3347,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="ID" index="0" name=""/>
         <alias field="CLASS_NAME" index="1" name=""/>
@@ -3360,10 +3360,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3381,7 +3381,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56849262700385239</ymax>
       </extent>
       <id>to_population_ea20170427112628026</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_population_ea.shp</datasource>
+      <datasource>./exposure/to_population_ea.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3562,7 +3562,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="blkid_new" index="0" name=""/>
         <alias field="blkid" index="1" name=""/>
@@ -3597,10 +3597,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="433">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3618,7 +3618,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.06849124199993639</ymax>
       </extent>
       <id>to_roads20170427112628023</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_roads.shp</datasource>
+      <datasource>./exposure/to_roads.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3739,7 +3739,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="RD_ID" index="0" name=""/>
         <alias field="CLASS" index="1" name=""/>
@@ -3758,10 +3758,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="3">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3779,7 +3779,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-18.58396405263277984</ymax>
       </extent>
       <id>to_special_infrastructure20170427112628020</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_special_infrastructure.shp</datasource>
+      <datasource>./exposure/to_special_infrastructure.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3888,7 +3888,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="ID" index="0" name=""/>
         <alias field="USEGROUP" index="1" name=""/>
@@ -3905,10 +3905,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3926,7 +3926,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.05046678099995461</ymax>
       </extent>
       <id>to_specials20170427112628016</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_specials.shp</datasource>
+      <datasource>./exposure/to_specials.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4074,7 +4074,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="SPEC_ID" index="0" name=""/>
         <alias field="BLDG_ID" index="1" name=""/>
@@ -4099,10 +4099,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="82605640">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4120,7 +4120,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56076300021231873</ymax>
       </extent>
       <id>to_village20170427112628013</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_village.shp</datasource>
+      <datasource>./exposure/to_village.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4229,7 +4229,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -4246,10 +4246,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1869311093">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4267,7 +4267,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56076300021231873</ymax>
       </extent>
       <id>to_village_aal20170427112628010</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_village_aal.shp</datasource>
+      <datasource>./exposure/to_village_aal.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4416,7 +4416,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -4443,10 +4443,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="21361848">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4464,7 +4464,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56076300021231873</ymax>
       </extent>
       <id>to_village_aal_tc_eq20170427112628006</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_village_aal_tc_eq.shp</datasource>
+      <datasource>./exposure/to_village_aal_tc_eq.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4621,7 +4621,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -4650,10 +4650,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-526603">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4671,7 +4671,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-15.56076300021231873</ymax>
       </extent>
       <id>to_village_bld_rc20170427112627991</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/to_village_bld_rc.shp</datasource>
+      <datasource>./exposure/to_village_bld_rc.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4856,7 +4856,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -4892,10 +4892,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="880303152">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4913,7 +4913,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-21.04246999999048739</ymax>
       </extent>
       <id>tongatapu_villages20170427112628029</id>
-      <datasource>/home/sachin/Projects/pacsafe/data/to/exposure/tongatapu_villages.shp</datasource>
+      <datasource>./exposure/tongatapu_villages.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5022,7 +5022,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="OBJECTID" index="0" name=""/>
         <alias field="VID" index="1" name=""/>
@@ -5039,10 +5039,10 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="140771584">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5054,19 +5054,47 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <properties>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
-    </SpatialRefSys>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
       <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -5082,13 +5110,38 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
     </Digitizing>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets/>
 </qgis>
