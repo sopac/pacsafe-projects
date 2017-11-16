@@ -3,6 +3,7 @@ nukualofa_cyclone_buildings.qgs
 nukualofa_cyclone_scenario.qgs
 nukualofa_cyclone_scenario_2.qgs
 nukualofa_cyclone_scenario_3.qgs
+Lifuka_cyclone_scenario_1.qgs
 nukualofa_tsunami_buildings.qgs
 nukualofa_tsunami_population.qgs
 tonga_exposure_layers.qgs
