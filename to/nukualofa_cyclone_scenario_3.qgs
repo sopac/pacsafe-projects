@@ -17,7 +17,7 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="track_008_00028_line20171116150228419" source="./shapefile/track.008-00028.line.shp" name="Cyclone 008-00028 track">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="008_0002820171116150703917" source="./raster/008-00028.tif" name="Cyclone 008-00028 wind field">
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="008_0002820171116150703917" source="./raster/008-00028-local.tif" name="Cyclone 008-00028 wind field">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="to_imagery20171116143219422" source="./imagery/to_imagery.tif" name="Imagery">
@@ -28,10 +28,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-175.41907428617278697</xmin>
-      <ymin>-21.31429741895576058</ymin>
-      <xmax>-174.82055608148303349</xmax>
-      <ymax>-20.93748914516353921</ymax>
+      <xmin>-175.37233350000002474</xmin>
+      <ymin>-21.28551300000000168</ymin>
+      <xmax>-175.01560649999998986</xmax>
+      <ymax>-21.04472700000000174</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -103,7 +103,7 @@
         <ymax>-21.05046000000000106</ymax>
       </extent>
       <id>008_0002820171116150703917</id>
-      <datasource>./raster/008-00028.tif</datasource>
+      <datasource>./raster/008-00028-local.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2694,6 +2694,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
       <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
       <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
     </SpatialRefSys>
     <DefaultStyles>
       <Fill type="QString"></Fill>
